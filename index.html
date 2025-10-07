@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Weekly Winners</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Weekly Winners</h1>
+      <p class="sub">Update <code>data.js</code> only — this page will refresh from that file.</p>
+    </header>
+
+    <section class="panel">
+      <h2>By Week</h2>
+      <div id="weeks"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Leaderboard</h2>
+      <div id="winners"></div>
+    </section>
+  </main>
+
+  <!-- Load data first, then app -->
+  <script type="module" src="data.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
