@@ -32,7 +32,7 @@ export const seasons = {
     3: "Luis",
     4: "Kevin",
     5: "PJ",
-    6: "Reina",
+    6: "Reina"
     // add more weeks as they happen, e.g.:
     // 6: "",
     // 7: "",
@@ -51,4 +51,5 @@ export const manualWinners = [
   // ["Claudia", 2],
   // ["PJ", 1],
 ];
+
 
