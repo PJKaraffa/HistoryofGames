@@ -24,7 +24,7 @@ export const seasons = {
     15: "Mike",
     16: "Mike",
     17: "Reina",
-    18: "Reina",
+    18: "Reina"
   },
   "2025-26": {
     1: "Luis",
@@ -51,6 +51,7 @@ export const manualWinners = [
   // ["Claudia", 2],
   // ["PJ", 1],
 ];
+
 
 
 
